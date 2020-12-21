@@ -45,7 +45,8 @@ body{
 }
 
 .download-app__link{
-   padding-right: 23px;
+   margin-right: 23px;
+   text-decoration: none;
 }
 
 .last-link{
@@ -53,7 +54,7 @@ body{
 }
 
 .download-app__images{
-  margin: 94px 94px 94px 0;
+   margin: 94px 94px 94px 0;
 }
 
 
@@ -64,6 +65,7 @@ body{
    display: flex;
    justify-content: space-between;
    margin-top: 117px;
+   margin-bottom: 123px;
 }
 
 .contact__discription{
@@ -138,7 +140,6 @@ body{
    outline: none;
    cursor: pointer;
    margin-top: 24px;
-   margin-bottom: 123px;
 }
 
 .btn:hover{
@@ -173,15 +174,18 @@ body{
    font-weight: bold;
    font-size: 18px;
    line-height: 22px;
-   padding-bottom: 33px;
+   margin-bottom: 33px;
 }
 
 .footer__link{
-   display: flex;
-   flex-direction: column;
+   display: block;
    color: #000;
-   padding-bottom: 8px;
+   margin-bottom: 8px;
    text-decoration: none;
+}
+
+.footer__link:last-child{
+   margin-bottom: 0;
 }
 
 .footer__link:hover{
@@ -205,12 +209,12 @@ body{
    padding-bottom: 20px;
 }
 
-.footer-row__item-link{
-   padding-right: 12px;
+.item-link-social{
+   margin-right: 12px;
 }
 
-.footer-row__item-link:last-child{
-   padding-right: 0;
+.item-link-social:last-child{
+   margin-right: 0;
 }
 
 .footer-row__item--payment{
